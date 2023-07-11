@@ -28,6 +28,11 @@ Then install dependencies
 ```bash
 pip install -e .
 ```
+To run jupyter notebooks with the conda kernel, install nb_conda_kernels
+
+```
+conda install nb_conda_kernels
+```
 
 in the repository's root directory. While the development mode `-e` is not strictly necessary, we recommend it since it ensures any modifications to the code take effect immediately.
 
