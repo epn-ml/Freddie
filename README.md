@@ -17,7 +17,13 @@ If you use the code or models in this repository for your research, please cite 
 
 ## Installation
 
-This project is written in pure Python. To deploy it on your machine, use
+This project is written in pure Python. To deploy it on your machine,
+Create a conda env
+```
+conda create -n freddie python=3.7
+conda activate freddie
+```
+Then install dependencies
 
 ```bash
 pip install -e .
