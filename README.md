@@ -25,6 +25,12 @@ pip install -e .
 
 in the repository's root directory. While the development mode `-e` is not strictly necessary, we recommend it since it ensures any modifications to the code take effect immediately.
 
+## Data
+Download the dataset used in the project:
+```
+wget -P data/ https://zenodo.org/record/6417492/files/messenger-mag-01s.tar.gz?download=1
+```
+
 ## Scripts
 
 The project's three main scripts are located in the `src/` directory:
